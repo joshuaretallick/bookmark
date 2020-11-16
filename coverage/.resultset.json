@@ -1,21 +1,68 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/georgiehorth/Desktop/Projects/bookmarks/app.rb": {
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/app.rb": {
         "lines": [
           1,
-          null,
           1,
           null,
           1,
-          1,
           null,
           1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
           null
         ]
       },
-      "/Users/georgiehorth/Desktop/Projects/bookmarks/spec/features/viewing_booking_spec.rb": {
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/lib/bookmark.rb": {
         "lines": [
+          1,
+          null,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/spec/bookmark_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/spec/features/viewing_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -25,6 +72,6 @@
         ]
       }
     },
-    "timestamp": 1605540043
+    "timestamp": 1605542304
   }
 }
