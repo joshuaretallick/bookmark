@@ -81,3 +81,13 @@ end
 ```
 
 In this method we are creating a connection to the database, then calling the correct table using a query. Finally we assigned the query to a variable which we then mapped over to result in an array of urls. By doing this we only had to change the code in our bookmark.rb file, we did not change anything in our erb, spec or app files.
+
+### Setting up Test Environment
+
+You've now setup and are maintaining two databases for Bookmark Manager. Remember to update the README with instructions to create the test database, and run the psql commands for both databases.
+
+```
+$> psql
+admin=# CREATE DATABASE "bookmark_manager_test";
+admin=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+```
