@@ -1,3 +1,5 @@
+Josh is here now!
+
 # Bookmarks
 ### Week 4 afternoon challenge
 
@@ -20,20 +22,20 @@ We'll be using BDD (Behaviour Driven Development) to deliver this website.
 
 We wrote our first user story as:
 
-    As a user 
-    So I can see my saved bookmarks 
+    As a user
+    So I can see my saved bookmarks
 	I’d like to be able to pull up a list of bookmarks
 
 As a part of this user story we created a simple domain model to act as structure that we'd be aiming for.
 
 <img width="992" alt="Screenshot 2020-11-16 at 14 46 16" src="https://user-images.githubusercontent.com/71782749/99295211-08c24e80-283d-11eb-8ee4-5c8d7fbe0167.png">
 
-First, we made sure that we'd followed [all of the steps](https://github.com/makersacademy/course/blob/master/pills/ruby_web_project_setup_list.md) of setting up a sinatra app, making our feature test pass with the smallest amount of code written. 
+First, we made sure that we'd followed [all of the steps](https://github.com/makersacademy/course/blob/master/pills/ruby_web_project_setup_list.md) of setting up a sinatra app, making our feature test pass with the smallest amount of code written.
 
 We refactored our working from a hardcoded array to a Class method def self.all :
 
     # in lib/bookmark.rb
-    
+
     class Bookmark
 	  def self.all
 	     [
@@ -49,7 +51,7 @@ The app.rb route looks like:
 	  @bookmarks = Bookmark.all
 	  erb :'bookmarks/index'
     end
-    
+
 The erb iterates over the @bookmarks array using each. This concludes User Story 1.
 
 ### User Story 2
