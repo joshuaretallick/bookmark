@@ -6,6 +6,7 @@ require 'capybara'
 require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
+require 'capybara/dsl'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
@@ -40,7 +41,7 @@ RSpec.configure do |config|
   config.before(:each) do
     setup_test_database
   end
-  
+
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods
