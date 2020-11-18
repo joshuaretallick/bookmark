@@ -91,3 +91,10 @@ $> psql
 admin=# CREATE DATABASE "bookmark_manager_test";
 admin=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 ```
+
+### User Story 3
+```
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+```

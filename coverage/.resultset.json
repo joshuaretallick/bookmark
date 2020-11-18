@@ -13,7 +13,19 @@
           null,
           null,
           1,
+          2,
+          2,
+          null,
+          null,
           1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
           1,
           null,
           null,
@@ -29,14 +41,25 @@
           1,
           null,
           1,
-          2,
-          2,
+          4,
+          4,
           null,
           0,
           null,
           null,
-          2,
-          8,
+          4,
+          12,
+          null,
+          null,
+          1,
+          5,
+          5,
+          null,
+          0,
+          null,
+          null,
+          5,
+          null,
           null,
           null
         ]
@@ -61,6 +84,28 @@
           1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/spec/features/creating_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
           null
         ]
       },
@@ -76,12 +121,11 @@
           1,
           1,
           1,
-          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1605631741
+    "timestamp": 1605707853
   }
 }
