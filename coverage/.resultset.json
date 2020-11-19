@@ -5,6 +5,7 @@
         "lines": [
           1,
           1,
+          1,
           null,
           1,
           null,
@@ -67,33 +68,20 @@
           1,
           8,
           8,
-          null,
-          0,
-          null,
-          null,
-          8,
-          8,
           10,
           null,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
           1,
-          12,
-          12,
-          null,
-          0,
-          null,
-          null,
           12,
           12,
           null,
           null,
           1,
-          2,
-          2,
-          null,
-          0,
-          null,
           2,
           null,
           null,
@@ -101,13 +89,38 @@
           2,
           2,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/lib/database_connection.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          25,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/database_connection_setup.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
           0,
-          null,
-          null,
-          2,
-          2,
-          null,
-          null,
           null
         ]
       },
@@ -186,6 +199,40 @@
           null
         ]
       },
+      "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/spec/database_connection_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/joshuaretallick/Projects/Bootcamp/bookmark_manager/bookmarks/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
@@ -252,6 +299,6 @@
         ]
       }
     },
-    "timestamp": 1605800352
+    "timestamp": 1605805570
   }
 }
